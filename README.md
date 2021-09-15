@@ -5,6 +5,7 @@
 3. Put the contents that you want to be sucure into the .env file i.e
 
     SECRET_KEY=your_secret_key
+
     DATABASE_NAME=db_name
     DATABASE_USER=db_user
     DATABASE_PASSWORD=db_password
