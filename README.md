@@ -3,12 +3,14 @@
 1. Create a django project of your own choice.
 2. Create a .env file in the same directory where settings.py resides.
 3. Put the contents that you want to be sucure into the .env file i.e
+
     SECRET_KEY=your_secret_key
     DATABASE_NAME=db_name
     DATABASE_USER=db_user
     DATABASE_PASSWORD=db_password
     DATABASE_HOST=db_host
     DATABASE_PORT=db_port
+
 4. Install a package called django-environ for managing environment variables inside the project `pip Install django-environ`.
 5. Inside settings, `import environ` from django environ and enable it to read the >.env file
 ## it can be done as shown below:
